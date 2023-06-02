@@ -1,0 +1,30 @@
+﻿@using WebApplicationCone.Models
+@model LibraryModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="/Index" method="post">
+        <div>
+            <label>Height</label>
+            <input type="number" name="Height" />
+        </div>
+
+        <div>
+            <label>Small Radius</label>
+            <input type="number" name="SmallRadius" />
+        </div>
+
+        <div>
+            <label>Big Radius</label>
+            <input type="number" name="BigRadius" />
+        </div>
+
+        <div>
+            <input type="submit" name="submitButton" value="Посчитать" />
+        </div>
+        <label>Result: @Model.Volume</label>
+    </form>
+
+</div>
