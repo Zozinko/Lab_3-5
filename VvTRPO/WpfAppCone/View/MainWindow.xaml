@@ -20,11 +20,11 @@
         <Viewbox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
             <StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Label Content="Высота конуса"/>
+                    <Label Content="Высота конуса" Width="98"/>
                     <TextBox x:Name="TextBox_Height" Width="100"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Label Content="Нижний радиус"/>
+                    <Label Content="Нижний радиус" Width="98"/>
                     <TextBox x:Name="TextBox_BigRadius" Width="100"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
